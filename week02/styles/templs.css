@@ -38,6 +38,7 @@ footer {
     margin: auto;
     border: #abe;
     padding: auto;
-    font-size: 0.5rem;
+    font-size: 1rem;
+    background-color: aqua;
     text-align: center;
 }
