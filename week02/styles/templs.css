@@ -37,7 +37,7 @@ section {
 footer {
     margin: auto;
     border: #abe;
-    padding: black;
+    padding: black 10px;
     font-size: 1rem;
     background-color: white;
     text-align: center;
