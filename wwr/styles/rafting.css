@@ -32,7 +32,7 @@ footer {
 
 h1,
 h2 {
-    font-family: var(--body-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -58,7 +58,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -69,9 +69,9 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
-    color: #f4a261;
+    color: var(--secondary-color);
 }
 
 .hero article img {
