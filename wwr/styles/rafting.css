@@ -18,19 +18,27 @@
 .navigation {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    display: flex;
-
+    border: 1px solid #000;
 }
 
-.nav-ul a {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    background-color: #e0e0e0;
-    padding: 10px 15px;
-    border-radius: 8px;
+.navigation li {
+    flex: 1;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #000;
+    border-left: 1px solid #000;
+}
+
+.navigation li:first-child a {
+    border-left: none;
+}
+
+/* ...existing code... */
 
 }
 
