@@ -88,6 +88,7 @@ article {
 
 .socialmedia a {
     display: inline-block;
+    text-decoration: none;
 }
 
 .socialmedia img {
