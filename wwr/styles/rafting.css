@@ -111,9 +111,9 @@ article {
 
 .history-content {
     display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 20px;
+    grid-template-columns: 1fr 125px 1fr
+    aling-items: center
+    gap: 24px;
     margin: 16px
 }
 
