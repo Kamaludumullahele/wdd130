@@ -32,6 +32,8 @@ body {
 h1 {
     color: darkblue;
     border-bottom: #eee;
+    display: flex;
+
 }
 
 main img {
