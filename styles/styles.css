@@ -26,6 +26,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    border-bottom: #eee;
 }
 
 main img {
@@ -61,11 +62,28 @@ aside img {
 }
 
 header,
-footer 
-.grid{
+.grid,
+footer {
     max-width: 840px;
     margin: 0 auto;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin-inline: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
