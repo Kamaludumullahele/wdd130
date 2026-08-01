@@ -134,7 +134,7 @@ footer {
     align-items: start;
 }
 
-.adventure h1 {
+.adventure h2 {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -146,8 +146,11 @@ footer {
 }
 
 .adventure img {
-    width: 100%;
+
+    width: 100px;
+    height: auto;
     display: block;
     aspect-ratio: 4 / 3;
     object-fit: cover;
+    border-radius: 6px;
 }
