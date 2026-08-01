@@ -1,13 +1,10 @@
-:root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
-    --accent1-color: #264653;
-    --accent2-color: #e9c46e;
-    --heading-font: "Times New Romans", "Georgia", Serif;
-    --body-font: Arial, Helvetica, San-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-* {
+:root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
