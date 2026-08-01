@@ -97,24 +97,28 @@ article {
 .hero article {
     position: absolute;
     color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-.hero article img {
-    width: 125px;
-    height: auto;
-    display: block;
+.history {
+    margin: 16px;
+    padding: 8px;
 }
 
 .history h2 {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .history-content {
     display: grid;
-    grid-template-columns: 1fr 125px 1fr
-    aling-items: center
+    grid-template-columns: 1fr 125px 1fr;
+    align-items: center;
     gap: 24px;
-    margin: 16px
+    margin: 0;
 }
 
 footer {
