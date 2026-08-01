@@ -9,8 +9,8 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46e;
-    --heading-font: "Times New Romans", "Georgia", Serif;
-    --body-font: Arial, Helvetica, San-serif;
+    --heading-font: "Times New Romans", "Georgia", serif;
+    --body-font: Arial, Helvetica, san-serif;
 }
 
 .header {
@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
+    padding: 8px 16px;
 }
 
 .navigation {
@@ -78,8 +79,20 @@ article {
     padding: 8px;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
 .socialmedia a {
-    text-decoration: none;
+    display: inline-block;
+}
+
+.socialmedia img {
+    width: 28px;
+    height: 28px;
 }
 
 .hero {
@@ -95,6 +108,7 @@ article {
 
 .hero h1 {
     position: absolute;
+    box-sizing: border-box;
     top: 20px;
     left: 0;
     right: 0;
@@ -136,16 +150,17 @@ article {
     margin: 0;
 }
 
-history-content img {
+.history-content img {
     width: 125px;
     height: auto;
     display: block;
+    justify-self: center;
 }
 
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .adventure {
