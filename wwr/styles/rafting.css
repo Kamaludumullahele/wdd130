@@ -104,6 +104,12 @@ article {
 
 }
 
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 12px;
+}
+
 .history {
     margin: 16px;
     padding: 8px;
