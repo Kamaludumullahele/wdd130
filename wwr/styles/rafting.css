@@ -7,6 +7,15 @@
     --body-font: Arial, Helvetica, San-serif;
 }
 
+* {
+    --primary-color: #055a05;
+        --secondary-color: #f4a261;
+        --accent1-color: #264653;
+        --accent2-color: #e9c46e;
+        --heading-font: "Times New Romans", "Georgia", Serif;
+        --body-font: Arial, Helvetica, San-serif;
+    }
+
 .header {
     background-color: var(--primary-color);
     columns: var(--accent2-color);
