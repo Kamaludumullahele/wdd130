@@ -47,6 +47,11 @@
     border-left: none;
 }
 
+.navigation a:hover {
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
