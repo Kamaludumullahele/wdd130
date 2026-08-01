@@ -23,7 +23,7 @@
 
 }
 
-.nav-ul {
+.nav-ul a {
     display: flex;
     flex-direction: column;
     gap: 15px;
