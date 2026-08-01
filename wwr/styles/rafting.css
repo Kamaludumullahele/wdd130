@@ -126,3 +126,28 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+    align-items: start;
+}
+
+.adventure h1 {
+    grid-column: 1/ -1;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.adventure figure {
+    margin: 0;
+    min-width: 100%;
+}
+
+.adventure img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
