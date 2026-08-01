@@ -73,6 +73,7 @@ article {
 
 .hero {
     position: relative;
+    margin-bottom: 32px;
 }
 
 .hero img {
@@ -135,20 +136,20 @@ footer {
 }
 
 .adventure h2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    grid-column: 1 / -1;
+    /* title across all 5 columns */
+    text-align: center;
+    margin: 0 0 8px;
 }
 
 .adventure figure {
     margin: 0;
-    min-width: 100%;
+    min-width: 0;
 }
 
 .adventure img {
 
     width: 100px;
-    height: auto;
     display: block;
     aspect-ratio: 4 / 3;
     object-fit: cover;
