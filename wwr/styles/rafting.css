@@ -7,17 +7,19 @@
     --body-font: Arial, Helvetica, San-serif;
 }
 
-header {
+.header {
     background-color: var(--primary-color);
     columns: var(--accent2-color);
     display: grid;
-    justify-content: right;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 
-* {
+.navigation {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
 }
 
 body {
