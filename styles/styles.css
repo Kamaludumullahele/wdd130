@@ -4,7 +4,8 @@
 }
 
 nav {
-    background-color: var(--heading-background-color) padding:1px;
+    background-color: var(--heading-background-color)1px;
+
 }
 
 nav a {
@@ -49,7 +50,10 @@ aside img {
     height: auto;
 }
 
+header,
 footer {
+    max-width: 840px;
+    margin: 0 auto;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
