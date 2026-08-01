@@ -28,7 +28,7 @@
 }
 
 .navigation a {
-    display: flex;
+    display: block;
     text-align: center;
     padding: 12px 20px;
     background-color: var(--primary-color);
@@ -100,7 +100,7 @@ article {
 }
 
 .hero article img {
-    width: 200px;
+    width: 125px;
     height: auto;
     display: block;
 }
