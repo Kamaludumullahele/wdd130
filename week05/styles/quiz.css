@@ -5,5 +5,22 @@
 }
 
 main {
-    
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+select,
+textarea,
+input {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#q3 {
+    min-height: 3rem;
 }
