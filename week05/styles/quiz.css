@@ -33,7 +33,7 @@ input {
 }
 
 #q3 {
-    min-height: 3rem;
+    min-height: 5rem;
 }
 
 body {
@@ -61,18 +61,15 @@ fieldset {
 }
 
 .code-box {
-  display: inline-block;
+  display: block;
   width: 300px;
-  display: flex;
-  justify-content: center;
+  margin: 0.5rem auto;
   padding: 0.5rem 0.75rem;
-  margin: 0.5rem 0;
   background: black;
   color: white;
   border: 1px solid #ccc;
-  border-radius: 4px;
   font-family: monospace;
-  text-align: center;
+  text-align: left;
 }
 
 legend {
@@ -128,4 +125,5 @@ code {
     font-size: 1.1rem;
     font-family: Arial, sans-serif;
     color: #333;
+    text-align: center;
 }
