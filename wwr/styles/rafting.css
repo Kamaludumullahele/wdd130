@@ -199,3 +199,12 @@ footer {
     object-fit: cover;
     border-radius: 6px;
 }
+
+.employee img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: right;
+    width: 150px;
+    height: 100px;
+}
