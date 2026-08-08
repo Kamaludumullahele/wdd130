@@ -19,97 +19,104 @@
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a> </li>
+                <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="contact">
-            <div>
-                <h1>Contact Us</h1>
-                <p>White Water Rafting Company</p>
-                <p>123 River Avenue, Banff</p>
-                <p>Alberta, Canada</p>
-                <p>Phone: 403-123-4567</p>
-                <p>Email: infor@whitewater.com</p>
-            </div>
+            <h1>Contact Us</h1>
+            <p>White Water Rafting Company</p>
+            <p>123 River Avenue, Banff</p>
+            <p>Alberta, Canada</p>
+            <p>Phone: 403-123-4567</p>
+            <p>Email: info@whitewater.com</p>
         </section>
+
         <div class="contact-layout">
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20045.515707021077!2d-114.0807765!3d51.095738250000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1786164560305!5m2!1sen!2sca"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="strict-origin-when-cross-origin"></iframe>"
-                frameborder="0"></iframe>
-
-
+                  loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                  title="White Water Rafting Location">
+                </iframe>
             </div>
 
             <form action="">
                 <div class="contact-item">
-                    <label for="q1">Username</label>
+                    <label for="q1">Name</label>
                     <input type="text" id="q1" name="name">
                 </div>
+
                 <div class="contact-item">
                     <label for="q2">Email</label>
-                    <input type="text" id="q2" name="email">
+                    <input type="email" id="q2" name="email">
                 </div>
+
                 <p>Message Purpose</p>
+
                 <div class="purpose">
+                    <input type="radio" id="p1" name="purpose" value="general">
                     <label for="p1">General Inquiry</label>
-                    <input type="radio" id="p1" name="purpose">
                 </div>
+
                 <div class="purpose">
+                    <input type="radio" id="p2" name="purpose" value="reservation">
                     <label for="p2">Reservation Question</label>
-                    <input type="radio" id="p2" name="purpose">
                 </div>
-                <div class="purposes">
+
+                <div class="purpose">
+                    <input type="radio" id="p3" name="purpose" value="suggestion">
                     <label for="p3">Website Suggestion</label>
-                    <input type="radio" id="p3" name="purpose">
                 </div>
+
                 <div class="contact-item">
                     <label for="q4">Message</label>
-                    <textarea name="q4" id="q4"></textarea>
+                    <textarea name="message" id="q4"></textarea>
                 </div>
+
                 <div class="contact-item">
-                    <label for="subsribe">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="subcribe" name="subscribe" value="yes">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                 </div>
-                <button type="submit">Get In Touch!</button>
+
+                <button type="submit">Submit</button>
             </form>
         </div>
-        <section class=" guides">
+
+        <section class="guides">
             <h2>We are here to serve you</h2>
             <div class="employee">
-                <img src="images/guide1.jpg" alt="guide1">
+                <img src="images/guide1.jpg" alt="Jason Anderson, Chief Guide">
                 <p>Jason Anderson | Chief Guide</p>
             </div>
             <div class="employee">
-                <img src="images/guide2.jpg" alt="guide2">
+                <img src="images/guide2.jpg" alt="Kathy Paul, Guide">
                 <p>Kathy Paul | Guide</p>
             </div>
             <div class="employee">
-                <img src="images/guide3.jpg" alt="guide3">
+                <img src="images/guide3.jpg" alt="Adam Smith, Guide">
                 <p>Adam Smith | Guide</p>
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2026| White Water Rafting| Kamal Udumulla Hele</p>
+        <p>&copy; 2026 | White Water Rafting | Kamal Udumulla Hele</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebook.jpg" alt="Facebook Icon">
             </a>
             <a href="https://linkedin.com">
-                <img src="images/linkedin.jpg" alt="Linkedin Icon">
+                <img src="images/linkedin.jpg" alt="LinkedIn Icon">
             </a>
             <a href="https://instagram.com">
                 <img src="images/instagram.jpg" alt="Instagram Icon">
             </a>
         </nav>
     </footer>
-
 </body>
 
 </html>
